@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+ }
+
+ 
+body{
+    /* background: #eee; */
+    background: rgba(248, 247, 216, 0.7)!important;
+ }
+
+ 
+
+  .grid-container-last {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+  }
+  .grid-container-last-one {
+    display: grid;
+    grid-template-columns: 1fr; /* Two columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    margin-top: 10px;
+  }
+  
+  .item-last {
+    background-color: #c300008a;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: "Oswald",sans-serif;
+  }
+    
+  .container {
+    margin: 5px;
+  }
+
+  .container .grid-container-last a,
+  .container .grid-container-last-one a {
+    font-weight: bold;
+  }
+
+  nav.navbar a.navbar-brand {
+    margin: auto;
+    margin-bottom: 5px;
+}
+  nav.navbar a.navbar-brand h1 {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 25px;
+  }
+  
+ .title {
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 3px;
+    background-color: rgba(248, 247, 216, 0.7)!important;
+ } 
+
+ marquee {
+    position: absolute;
+    top: 205px;
+    height: 30px;
+    background-color: #FFD330;
+    align-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+ }
+
+  .marquee {
+    position: absolute;
+    top: 205px;
+    height: 30px;
+    background-color: #FFD330;
+    align-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    white-space:normal;
+    overflow: hidden;
+    animation: marquee 10s linear infinite;
+    width: 135%;
+  } 
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+ /* Last Update */
