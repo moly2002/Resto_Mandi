@@ -754,9 +754,22 @@ h1.text-uppercase {
 }
 
 /* .footer{
+   
+   background-color: red;
    text-align: center;
-   background-color: #FFD330;
-   color: #dc3545 !important;
+   color: white;
    position: relative;
-   bottom: -2px;
+   bottom: -119px;
+   height: 25px;
+
+} */
+/* .footer{
+   
+   background-color: red;
+   text-align: center;
+   color: white;
+   position: relative;
+   bottom: -119px;
+   height: 25px;
+
 } */

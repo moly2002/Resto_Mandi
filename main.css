@@ -121,3 +121,13 @@ body{
   }
 
  /* Last Update */
+ .footer{
+   
+  background-color: #FFD330;
+  text-align: center;
+  color: #dc3545;
+  position: relative;
+  bottom: -119px;
+  height: 25px;
+
+}
