@@ -80,14 +80,14 @@ body{
 
  marquee {
     position: absolute;
-    top: 205px;
+    top: 158px;
     height: 30px;
     background-color: #FFD330;
     align-content: center;
     display: flex;
     align-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 13px;
     color: red;
     font-weight: bold;
  }
@@ -107,7 +107,7 @@ body{
     white-space:normal;
     overflow: hidden;
     animation: marquee 10s linear infinite;
-    width: 135%;
+    width: 100%;
   } 
 
   @keyframes marquee {
