@@ -22,7 +22,7 @@ html{
 body{
     /* background: #eee; */
     background: rgba(248, 247, 216, 0.7)!important;
-    height: 120%;
+    height: 110%;
  }
 
  
@@ -127,5 +127,5 @@ body{
   text-align: center;
   color: #dc3545;
   position: relative;
-  bottom: -123px;;
+  bottom: -160px;;
 }
